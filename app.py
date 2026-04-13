@@ -1,4 +1,6 @@
 # app.py
+import cv2
+
 from flask import Flask, request, jsonify, send_file
 from infer import count_rebar
 import os

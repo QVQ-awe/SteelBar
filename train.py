@@ -5,8 +5,8 @@ from siou_loss import bbox_iou
 
 # 替换YOLOv8默认的CIoU为SIoU
 from ultralytics.utils.loss import BboxLoss
-original_bbox_iou = BboxLoss.bbox_iou
-BboxLoss.bbox_iou = lambda self, *args, **kwargs: bbox_iou(*args, SIoU=True, **kwargs)
+original_bbox_iou = BboxLoss.bbox_iou # type: ignore
+BboxLoss.bbox_iou = lambda self, *args, **kwargs: bbox_iou(*args, SIoU=True, **kwargs) # type: ignore
 
 def main():
     # 加载基础模型（论文使用YOLOv8n）
