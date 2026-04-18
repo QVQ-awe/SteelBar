@@ -4,6 +4,14 @@ train: images/train  # 训练集图片路径
 val: images/val      # 验证集图片路径
 test: images/test    # 测试集图片路径
 
+nc: 1  # 类别数量
 # 类别信息
 names:
   0: rebar  # 钢筋端面类别
+
+roboflow:
+  workspace: qvqs-workspace
+  project: qvqs-workspace
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/qvqs-workspace/qvqs-workspace/dataset

@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(mkdir *)",
-      "Bash(git rm *)"
+      "Bash(git rm *)",
+      "Bash(f:\\programing\\steelbar\\.venv\\scripts\\python.exe *)",
+      "Bash(findstr *)",
+      "Bash(del *)",
+      "Bash(handle.exe *)",
+      "Bash(powershell *)"
     ]
   },
   "$version": 3
