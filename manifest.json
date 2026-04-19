@@ -1,0 +1,25 @@
+{
+  "name": "rebar-app",
+  "appid": "__UNI__APP_ID__",
+  "description": "Rebar counting app",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3
+  },
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false
+    },
+    "usingComponents": true
+  },
+  "h5": {
+    "router": {
+      "mode": "hash"
+    }
+  }
+}

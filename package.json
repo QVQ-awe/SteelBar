@@ -1,0 +1,27 @@
+{
+  "name": "rebar-app",
+  "version": "1.0.0",
+  "description": "Rebar counting app",
+  "main": "main.js",
+  "scripts": {
+    "dev:mp-weixin": "uni-app dev:mp-weixin",
+    "build:mp-weixin": "uni-app build:mp-weixin",
+    "dev:mp-alipay": "uni-app dev:mp-alipay",
+    "build:mp-alipay": "uni-app build:mp-alipay",
+    "dev:h5": "uni-app dev:h5",
+    "build:h5": "uni-app build:h5"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "^2.0.0-30820221102001",
+    "@dcloudio/uni-ui": "^1.4.22"
+  },
+  "devDependencies": {
+    "@dcloudio/uni-cli-shared": "^2.0.0-30820221102001",
+    "@dcloudio/uni-mp-weixin": "^2.0.0-30820221102001",
+    "@dcloudio/uni-mp-alipay": "^2.0.0-30820221102001",
+    "@dcloudio/uni-mp-baidu": "^2.0.0-30820221102001",
+    "@dcloudio/uni-h5": "^2.0.0-30820221102001",
+    "@vue/cli-plugin-babel": "^4.5.0",
+    "@vue/cli-service": "^4.5.0"
+  }
+}

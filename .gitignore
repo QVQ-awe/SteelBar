@@ -1,3 +1,4 @@
 .venv/
 .qwen/
 datasets/
+rebar-app/node_modules/
